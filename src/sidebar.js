@@ -10,10 +10,9 @@ import {
 const Sidebar = () => {
   return (
     <div
-      className="fixed top-0 left-0 h-screen w-16
-        m-0 flex flex-col text-white shadow-lg bg-gray-800"
+      className="fixed top-0 left-0 h-screen w-24 m-0 flex flex-col text-white shadow-lg bg-gray-900"
     >
-      <SidebarIcon icon={<BellIcon />} />
+      <SidebarIcon className="px-5" icon={<BellIcon />} />
       <SidebarIcon icon={<BookOpenIcon />} />
       <SidebarIcon icon={<ChartPieIcon />} />
       <SidebarIcon icon={<ChatIcon />} />
